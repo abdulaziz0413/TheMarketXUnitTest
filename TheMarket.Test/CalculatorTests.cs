@@ -39,5 +39,13 @@ public class CalculatorTests
         var result  = calculator.Multiply(4, 2);
         result.Should().Be(4*2);
     }
+    [Fact]
+    public void Check_Is_Even_number()
+    {
+        Calculator calculator  = new Calculator();
+        var result = calculator.CheckNumber(10);
+        result.Should().Be(true);
+    }
 
+    
 }

@@ -20,10 +20,11 @@ namespace TheMarket
         public int Divide(int a, int b) { return a / b; }
         public bool CheckNumber (int a)
         {
-            if (a / 2 == 0)
+            if (a % 2 == 0)
             {
                 return true;
             }
+            return false;
 
         }
     }
