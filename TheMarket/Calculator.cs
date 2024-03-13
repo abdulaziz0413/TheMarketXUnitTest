@@ -18,5 +18,13 @@ namespace TheMarket
         }
         public int Multiply(int a, int b) {  return a * b; }
         public int Divide(int a, int b) { return a / b; }
+        public bool CheckNumber (int a)
+        {
+            if (a / 2 == 0)
+            {
+                return true;
+            }
+
+        }
     }
 }
